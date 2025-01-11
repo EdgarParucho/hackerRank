@@ -14,8 +14,7 @@ function minMaxSum(arr) {
   }, 0)
   const min = sum - biggest;
   const max = sum - lowest;
-  console.log(min, max);
-  
+  console.log(min, max);  
 }
 
 const arr = [1, 3, 5, 7, 9];

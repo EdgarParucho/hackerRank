@@ -4,8 +4,7 @@
  * - 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock. 
  */
 
-const s1 = "12:01:00PM"; // 12:01:00
-const s2 = "07:05:45PM"; // 19:05:45
+const s = "12:01:00PM"; // 12:01:00
 
 function timeConversion(s) {
   let isPM = s.endsWith("PM");
@@ -15,5 +14,5 @@ function timeConversion(s) {
   return [hh, mm, ss].join(":");
 }
 
-console.log(timeConversion(s1));
-console.log(timeConversion(s2));
+const result = timeConversion(s);
+console.log(result);

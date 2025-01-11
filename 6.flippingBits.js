@@ -11,6 +11,8 @@ function flippingBits(n) {
   return equivalentDecimal;
 }
 
-const n = 9
+const n = 9;
 
-flippingBits(n)
+const result = flippingBits(n);
+
+console.log(result); // 4294967286

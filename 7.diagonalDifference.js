@@ -24,6 +24,6 @@ function diagonalDifference(arr) {
 	return absoluteDifference;
 }
 
-const result = diagonalDifference(arr)
+const result = diagonalDifference(arr);
 
-console.log(result)
+console.log(result);

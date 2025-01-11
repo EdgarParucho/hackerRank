@@ -5,7 +5,7 @@
 
 const a = [1, 2, 3, 4, 3, 2, 1]
 
-function lonelyinteger(a) {
+function lonelyInteger(a) {
     let unique = 0;
     a.reduce((acc, int) => {
         if (acc[int] == undefined) {
@@ -20,4 +20,6 @@ function lonelyinteger(a) {
     return unique;
 }
 
-console.log(lonelyinteger(a))
+const result = lonelyInteger(a);
+
+console.log(result);
